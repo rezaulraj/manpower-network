@@ -70,7 +70,7 @@ interface WorkCard {
   href: string;
 }
 
-interface WorkProps {}
+type WorkProps = Record<string, never>;
 
 const Work: React.FC<WorkProps> = () => {
   const workCards: WorkCard[] = [
@@ -112,8 +112,8 @@ const Work: React.FC<WorkProps> = () => {
             className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto"
             variants={itemVariants}
           >
-            We provide the talent you need to excel. Lets explore how we can
-            work together to make it happen.
+            We provide the talent you need to excel. Let&apos;s explore how we
+            can work together to make it happen.
           </motion.p>
         </motion.div>
 
@@ -121,9 +121,9 @@ const Work: React.FC<WorkProps> = () => {
           className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto"
           variants={containerVariants}
         >
-          {workCards.map((card, index) => (
+          {workCards.map((card) => (
             <motion.div
-              key={index}
+              key={card.id}
               className="relative rounded-2xl overflow-hidden group"
               variants={itemVariants}
               whileHover={{ y: -10 }}
