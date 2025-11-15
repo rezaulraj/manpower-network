@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { ClipLoader } from "react-spinners";
 import ReactCountryFlag from "react-country-flag";
 
 interface Job {
@@ -127,14 +126,14 @@ export default function OpenJobPosition() {
   if (loading) {
     return (
       <div className="flex justify-center items-center min-h-96 bg-gradient-to-br from-gray-50 to-blue-50 rounded-3xl">
-        <div className="text-center">
-          <ClipLoader
-            color={colorSchemes.primary.blue900}
-            loading={true}
-            size={60}
-          />
-          <p className="mt-4 text-gray-600 font-medium">
-            Loading career opportunities...
+        <div className="flex flex-col items-center">
+          <div className="relative">
+            <div className="w-16 h-16 border-4 border-blue-900 border-t-transparent rounded-full animate-spin"></div>
+            <div className="absolute inset-2 border-4 border-yellow-500 border-b-transparent rounded-full animate-spin-slow"></div>
+          </div>
+
+          <p className="mt-6 text-gray-600 font-semibold text-lg">
+            Loading career opportunities…
           </p>
         </div>
       </div>
