@@ -256,7 +256,7 @@ export default function OpenJobPosition() {
             No Positions Available
           </h3>
           <p className="text-gray-500 text-lg max-w-md mx-auto">
-            We don't have any openings in this category at the moment. Please
+            We do not have any openings in this category at the moment. Please
             check back later or explore other categories.
           </p>
         </div>
