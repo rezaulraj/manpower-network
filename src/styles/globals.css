@@ -2,19 +2,11 @@
 
 :root {
   --background: #ffffff;
-  --secendary: #171717;
+  --secondary: #171717;
   --primary: #ecc737;
   --heading: #000000;
   --textColor: #202122;
   --font-inter: "Montserrat", sans-serif;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-primary: var(--primary);
-  --color-secendary: var(--secendary);
-  --color-heading: var(--heading);
-  --color-text: var(--textColor);
 }
 
 * {
@@ -25,4 +17,14 @@ body {
   background: var(--background);
   color: var(--textColor);
   font-family: var(--font-inter);
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --secondary: #171717;
+    --primary: #ecc737;
+    --heading: #000000;
+    --textColor: #202122;
+  }
 }
