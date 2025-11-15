@@ -450,7 +450,7 @@ export default function CareersHero() {
                   </h2>
                   <p className="text-blue-100 text-lg leading-relaxed">
                     Share your details and we will contact you when matching
-                    positions open. Lets build your future together!
+                    positions open. Let&apos;s build your future together!
                   </p>
                 </div>
                 <button
@@ -593,7 +593,7 @@ export default function CareersHero() {
                       }))
                     }
                     className="w-full px-4 py-4 bg-gray-50 border border-gray-300 rounded-xl text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 resize-none text-lg"
-                    placeholder="Tell us about your career aspirations, skills, and why you're interested in joining our team. What makes you a great fit for our organization?"
+                    placeholder="Tell us about your career aspirations, skills, and why you are interested in joining our team. What makes you a great fit for our organization?"
                   />
                 </div>
                 <div>
@@ -698,7 +698,8 @@ export default function CareersHero() {
                     </h3>
                     <ul className="text-gray-600 space-y-1 text-lg">
                       <li>
-                        • We will review your application within 2-3 business days
+                        • We will review your application within 2-3 business
+                        days
                       </li>
                       <li>
                         • Suitable candidates will be contacted for an interview
