@@ -449,8 +449,8 @@ export default function CareersHero() {
                     Apply for Future Position
                   </h2>
                   <p className="text-blue-100 text-lg leading-relaxed">
-                    Share your details and we'll contact you when matching
-                    positions open. Let's build your future together!
+                    Share your details and we will contact you when matching
+                    positions open. Lets build your future together!
                   </p>
                 </div>
                 <button
@@ -698,7 +698,7 @@ export default function CareersHero() {
                     </h3>
                     <ul className="text-gray-600 space-y-1 text-lg">
                       <li>
-                        • We'll review your application within 2-3 business days
+                        • We will review your application within 2-3 business days
                       </li>
                       <li>
                         • Suitable candidates will be contacted for an interview

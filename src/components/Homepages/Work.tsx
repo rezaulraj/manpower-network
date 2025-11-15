@@ -112,7 +112,7 @@ const Work: React.FC<WorkProps> = () => {
             className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto"
             variants={itemVariants}
           >
-            We provide the talent you need to excel. Let's explore how we can
+            We provide the talent you need to excel. Lets explore how we can
             work together to make it happen.
           </motion.p>
         </motion.div>
@@ -123,7 +123,7 @@ const Work: React.FC<WorkProps> = () => {
         >
           {workCards.map((card, index) => (
             <motion.div
-              key={card.id}
+              key={index}
               className="relative rounded-2xl overflow-hidden group"
               variants={itemVariants}
               whileHover={{ y: -10 }}

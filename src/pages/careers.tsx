@@ -1,4 +1,4 @@
-import CareersForm from "@/components/Careers/CareersForm";
+// import CareersForm from "@/components/Careers/CareersForm";
 import CareersHero from "@/components/Careers/CareersHero";
 import OpenJobPosition from "@/components/Careers/OpenJobPosition";
 import WhyOurCustomers from "@/components/Homepages/WhyOurCustomers";
