@@ -412,7 +412,7 @@ const JobCard: React.FC<{
 
           <div className="bg-gradient-to-r from-gray-50 to-blue-50 rounded-xl p-4 border border-gray-200">
             <div className="text-xs text-gray-600 mb-2 font-bold uppercase tracking-wide">
-              🌍 Eligible Candidates From
+              🌍 Eligible Candidates
             </div>
             <div className="text-sm font-bold text-gray-900">
               {job.CandidatesOrigin}
@@ -986,7 +986,7 @@ const sampleData: Job[] = [
     Industry: "Construction & Engineering",
     CandidatesOrigin: "Any Nationality",
     Description:
-      "Experienced electrician needed for industrial and residential projects. You'll be responsible for installing, maintaining, and troubleshooting electrical systems while ensuring compliance with safety standards.",
+      "Experienced electrician needed for industrial and residential projects. You will be responsible for installing, maintaining, and troubleshooting electrical systems while ensuring compliance with safety standards.",
     JobType: "Full-time",
     Shift: "Day Shift",
     Gender: "Male",

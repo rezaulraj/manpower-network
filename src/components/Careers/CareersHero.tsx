@@ -116,7 +116,7 @@ export default function CareersHero() {
                 Build a Career
               </motion.span>
               <motion.span variants={itemVariants} className="block">
-                That{" "}
+                That
                 <motion.span
                   animate={{
                     backgroundPosition: ["0%", "100%", "0%"],
@@ -139,8 +139,8 @@ export default function CareersHero() {
             className="text-lg font-Inter md:text-xl lg:text-2xl text-white/90 max-w-2xl leading-relaxed"
           >
             Join a team that values ambition, innovation, and personal growth.
-            At our core, we are not just offering jobs — we are shaping meaningful
-            careers that make a difference.
+            At our core, we are not just offering jobs — we are shaping
+            meaningful careers that make a difference.
           </motion.p>
 
           <motion.div

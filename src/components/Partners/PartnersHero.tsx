@@ -157,7 +157,7 @@ export default function PartnersHero() {
             variants={textVariants}
             className="text-lg font-Inter md:text-xl lg:text-2xl text-white/90 leading-relaxed"
           >
-            We're always seeking trusted partners to help source and <br />{" "}
+            We are always seeking trusted partners to help source and <br />{" "}
             connect qualified talent from across the globe.
           </motion.p>
 
