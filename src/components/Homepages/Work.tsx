@@ -70,7 +70,7 @@ interface WorkCard {
   href: string;
 }
 
-const Work: React.FC = () => {
+const Work = () => {
   const workCards: WorkCard[] = [
     {
       id: 1,
