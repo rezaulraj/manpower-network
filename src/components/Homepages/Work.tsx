@@ -70,10 +70,7 @@ interface WorkCard {
   href: string;
 }
 
-// Fix: Replace empty interface with proper type
-type WorkProps = object;
-
-const Work: React.FC<WorkProps> = () => {
+const Work: React.FC = () => {
   const workCards: WorkCard[] = [
     {
       id: 1,
