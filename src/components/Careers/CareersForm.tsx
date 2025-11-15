@@ -9,7 +9,7 @@ export default function CareersForm() {
   const industriesRef = useRef<HTMLDivElement | null>(null);
 
   return (
-    <section id="positions" className="py-20 bg-[#201D1F]">
+    <section  className="py-20 bg-[#201D1F]">
       <div id="careers" className="container max-w-7xl mx-auto px-5">
         <div className="flex flex-col max-w-[620px] items-start justify-start">
           <h2 className="text-3xl text-start text-primary font-bold mb-4">

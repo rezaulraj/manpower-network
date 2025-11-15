@@ -10,7 +10,7 @@ export default function careers() {
     <Layout>
       <CareersHero />
       <OpenJobPosition />
-      <CareersForm />
+      {/* <CareersForm /> */}
       <WhyOurCustomers />
     </Layout>
   );
