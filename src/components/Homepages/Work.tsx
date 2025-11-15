@@ -110,8 +110,8 @@ const Work = () => {
             className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto"
             variants={itemVariants}
           >
-            We provide the talent you need to excel. Let&apos;s explore how we
-            can work together to make it happen.
+            We provide the talent you need to excel. Let is explore how we can
+            work together to make it happen.
           </motion.p>
         </motion.div>
 
